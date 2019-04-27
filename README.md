@@ -1,3 +1,3 @@
-# udemy-d3-master
+# udemy-d3
 
 Course URL: https://www.udemy.com/masteringd3js/
