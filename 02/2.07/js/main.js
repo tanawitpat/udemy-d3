@@ -5,9 +5,9 @@
 */
 
 d3.tsv("data/ages.tsv").then(function(data){
-    data.forEach(function(d){
-        d.age = +d.age;
-    });
+    data.forEach((d) => {
+        d.height = +d.height;
+    })
 
     var svg = d3.select("#chart-area").append("svg")
         .attr("width", 400)
